@@ -1,6 +1,6 @@
-from datetime	import datetime as dt
-from html 		import unescape
-from re 		import findall
+from datetime import datetime as dt
+from html import unescape
+from re import findall
 from save_to_db import DATA_BASE
 
 import random
@@ -75,6 +75,7 @@ def main():
 	o_data = list(prepair_data())
 	data = []
 	for i in range(len(o_data)):
+		# for each table
 		temp = TYPE_DATA
 		temp["tableName"] = TABLES[i][1]
 		temp["labels"] = [ele[0] for ele in o_data[i]]
@@ -89,6 +90,7 @@ def main():
 		temp["color"] = random.choice(CHARTCOLORS)
 		data.append(str(temp))
 
+	# compare all of series
 	temp = TYPE_DATA
 	temp["type"] = "bar"
 	temp["tableName"] = "Compare Series"
