@@ -23,7 +23,7 @@ def check_table(cursor, table_name):
 			f'CREATE TABLE {table_name} ({DATA_BASE_ARCHITECTURE})'
 		)
 	except sqlite3.OperationalError:
-		print(f'[+] {table_name} was created!')
+		print(f'[+] {table_name} table was created!')
 
 
 def ss1_process(single, counter):
