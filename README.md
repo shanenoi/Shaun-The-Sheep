@@ -1,8 +1,15 @@
-# Shaun-The-Sheep
+# Shau The Sheep
 
-preeeeeeeeeeeeeeeeeee
+đây là bộ phim kể về preeeeeeeeeeeeee
 
-Đây là source code render ra js.js của Shaun The Ship Visualization
-Các nguồn thông tin:
-  + Wikipedia
-  + Youtube
+## Description
+
+Đây là source code render ra file js.js của [Shaun The Ship Visualization](http://shaun-the-sheep.glitch.me/)
+
+```bash
+pip install foobar
+```
+
+## Source Data
+> + Wikipedia
+> + Youtube
